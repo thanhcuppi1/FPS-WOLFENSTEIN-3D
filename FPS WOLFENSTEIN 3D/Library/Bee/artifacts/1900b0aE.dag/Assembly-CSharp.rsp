@@ -362,6 +362,10 @@
 "Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs"
 "Assets/SampleScenes/Scripts/SlowMoButton.cs"
 "Assets/Scripts/DoorOpenFirst.cs"
+"Assets/Scripts/Weapons/GlobalAmmo.cs"
+"Assets/Scripts/Weapons/GunAmmoPick.cs"
+"Assets/Scripts/Weapons/HandgunFire.cs"
+"Assets/Scripts/Weapons/M9PickUp.cs"
 -langversion:9.0
 
 /deterministic
