@@ -9,7 +9,7 @@ public class M9PickUp : MonoBehaviour
     public GameObject fakehandgun;
     public AudioSource handgunPickupSound;
     public GameObject pickUpDisplay;
-
+    public GameObject pistolImage;
     void OnTriggerEnter(Collider other)
     {
         realhandgun.SetActive(true);
@@ -19,6 +19,7 @@ public class M9PickUp : MonoBehaviour
         pickUpDisplay.SetActive(false);
         pickUpDisplay.GetComponent<Text>().text = "HANDGUN";
         pickUpDisplay.SetActive(true);
+        pistolImage.SetActive(true);
     }
 
 }

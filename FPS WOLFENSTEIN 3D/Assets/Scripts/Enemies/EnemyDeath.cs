@@ -23,6 +23,7 @@ public class EnemyDeath : MonoBehaviour
             enemyAI.SetActive(false);
             theEnemy.GetComponent<LookPlayer>().enabled = false;
             GlobalScore.scoreValue += 1000;
+            GlobalComplete.enemycount += 1;
         }
     }
 }
